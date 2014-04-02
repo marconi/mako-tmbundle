@@ -88,7 +88,7 @@
 			<key>end</key>
 			<string>(&lt;/%(\2)&gt;)</string>
 			<key>name</key>
-			<string>source.mako.doc</string>
+			<string>comment.block.mako</string>
 			<key>patterns</key>
 			<array/>
 		</dict>
