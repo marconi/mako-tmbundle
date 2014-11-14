@@ -16,6 +16,14 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>comment</key>
+			<string>comments</string>
+			<key>match</key>
+			<string>(##(.*)$)</string>
+			<key>name</key>
+			<string>comment.line.mako</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>(&lt;%) </string>
 			<key>captures</key>
@@ -80,7 +88,7 @@
 			<key>end</key>
 			<string>(&lt;/%(\2)&gt;)</string>
 			<key>name</key>
-			<string>source.mako.doc</string>
+			<string>comment.block.mako</string>
 			<key>patterns</key>
 			<array/>
 		</dict>
