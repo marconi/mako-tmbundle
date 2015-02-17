@@ -25,7 +25,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(&lt;%) </string>
+			<string>(&lt;%\s)</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
