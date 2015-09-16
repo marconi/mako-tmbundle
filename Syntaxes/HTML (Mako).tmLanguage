@@ -475,7 +475,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(&lt;%([a-zA-Z:_]+))</string>
+			<string>(&lt;%([a-zA-Z0-9:_]+))</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -546,7 +546,7 @@
 						</dict>
 					</dict>
 					<key>end</key>
-					<string>(?=&lt;/%[a-zA-Z:_]+&gt;)</string>
+					<string>(?=&lt;/%[a-zA-Z0-9:_]+&gt;)</string>
 					<key>patterns</key>
 					<array>
 						<dict>
