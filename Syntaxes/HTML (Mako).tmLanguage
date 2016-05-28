@@ -48,6 +48,29 @@
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>(&lt;%!\s)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(%&gt;)</string>
+			<key>name</key>
+			<string>source.mako.substitution</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.python</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>(&lt;%(text)&gt;)</string>
 			<key>captures</key>
 			<dict>
