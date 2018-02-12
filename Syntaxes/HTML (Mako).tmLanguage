@@ -190,7 +190,7 @@
 			<array>
 				<dict>
 					<key>include</key>
-					<string>comment.block</string>
+					<string>comment.block.mako</string>
 				</dict>
 			</array>
 		</dict>
